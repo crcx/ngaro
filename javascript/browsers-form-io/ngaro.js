@@ -177,8 +177,8 @@ function processOpcode()
       break;
     case VM_CALL:
       ip++; rsp++;
-      address[rsp] = ip++;
-      ip = image[ip-1] - 1;
+      address[rsp] = ip;
+      ip = image[ip] - 1;
       break;
     case VM_JUMP:
       ip++;
