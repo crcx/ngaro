@@ -260,8 +260,8 @@ namespace Retro.Forth
       break;
     case OpCodes.VM_CALL:
       ip++; rsp++;
-      address[rsp] = ip++;
-      ip = memory[ip-1] - 1;
+      address[rsp] = ip;
+      ip = memory[ip] - 1;
       break;
     case OpCodes.VM_JUMP:
       ip++;
