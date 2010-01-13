@@ -8,7 +8,7 @@ For the C# ("dotnet") implementation, the following copyright applies:
 
   Copyright (c) 2009, Simon Waite and Charles Childers
 
-For the MIDP port ("midp"). the following copyright applies:
+For the J2ME port ("j2me"). the following copyright applies:
 
   Copyright (c) 2009, Martin Polak
 
